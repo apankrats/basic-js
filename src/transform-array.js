@@ -32,7 +32,7 @@ function transform(arr) {
     }
     result = newArr
   } else {
-    result = "'arr' parameter must be an instance of the Array!";
+    result = Error("'arr' parameter must be an instance of the Array!");
   }
   
   return result;
